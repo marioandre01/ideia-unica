@@ -5,13 +5,13 @@ function Home() {
         <div>
             <h1>Página inicial</h1>
             {/*<h2>Home</h2>*/}
-            {/*<Contador />*/}
+            <Contador />
         </div>
         
     );
 }
 
-/*function Contador() {
+function Contador() {
     const [contador, setContador] = useState(1);
 
     function adicionaContador(){
@@ -24,6 +24,6 @@ function Home() {
             <button onClick={adicionaContador}>Adicionar</button>
         </div>
     );
-}*/
+}
 
 export default Home;
